@@ -1,0 +1,22 @@
+API 
+
+1. update_book  
+
+INPUT : 
+    - list of account_ledger  
+    - list of ledger
+PROCESS : 
+    - validate update_book formula [delta of accounts = sum of all ledger entries]
+    - add all the individual entries 
+        - account_ledger
+        - ledger
+        - create new tags &  update ledger_tags
+
+OUTPUT :
+    - valid / not valid 
+
+2. add_journal
+
+INPUT
+    - 
+

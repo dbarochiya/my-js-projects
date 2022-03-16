@@ -1,0 +1,30 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-17865316d91-4fe458ebb23a4eee": {
+			"provider": "generic",
+			"driver": "sqlite_jdbc",
+			"name": "expense_tracker.db",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/dbarochiya/Desktop/me/workspace/expense_tracker/backend/DB/expense_tracker.db",
+				"url": "jdbc:sqlite:/Users/dbarochiya/Desktop/me/workspace/expense_tracker/backend/DB/expense_tracker.db",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}

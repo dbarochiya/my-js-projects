@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS "account";
+DROP TABLE IF EXISTS "account_ledger";
+DROP TABLE IF EXISTS "ledger";
+DROP TABLE IF EXISTS "tag";
+DROP TABLE IF EXISTS "ledger_tag";
